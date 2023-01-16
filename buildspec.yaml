@@ -4,10 +4,10 @@ phases:
     commands:
       - npm i -force npm@latest -g
       - pip install --upgrade pip
-  # pre_build:
-  #   commands:
-  #     - echo Pre_build Phase
-  #     - npm i -force
+  pre_build:
+    commands:
+      - echo Pre_build Phase
+      - npm i 
   build:
     commands:
       - echo Build Phase
