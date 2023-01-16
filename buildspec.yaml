@@ -7,7 +7,7 @@ phases:
   pre_build:
     commands:
       - echo Pre_build Phase
-      - npm i --force
+      - npm i -force
   build:
     commands:
       - echo Build Phase
@@ -22,3 +22,4 @@ artifacts:
   discard-path: no
   base-directory: build
   
+
